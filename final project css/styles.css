@@ -1,0 +1,76 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STYLE for body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('css\ project\ image.jpg'); /* background image*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for container */
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+}
+
+/* style for heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f79f08; 
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#e8890d;
+    font-weight: bold;
+}
+
+
+/* style for button */
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #e8890d;
+    color: #f7eaea;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Input Styles */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #e70a27;
+}
+
+button:hover {
+    background-color: #1f97e2;
+}
+
+/* Result Paragraph Styles */
+p#eligibilityResult {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #007bff;
+}

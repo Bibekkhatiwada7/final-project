@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Eligibility Checker</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Heading of page -->
+        <h1>Job Eligibility Checker</h1>
+
+        <!--eligibility criteria for the job-->
+        <form id="eligibilityForm">
+            <label for="diploma">Requried Diploma:</label>
+            <input type="text" id="diploma" name="diploma" required>
+            <label for="experience">Years of Experience:</label>
+            <input type="text" id="experience" name="experience" required>
+            <label for="graduationDate">Graduation Date:</label>
+            <input type="text" id="graduationDate" name="graduationDate" required>
+            <label for="importantSkill">Important Skill:</label>
+            <input type="text" id="importantSkill" name="importantSkill" required>
+            <button type="submit">Check the Eligibility</button> <!--button of the page to submit the form-->
+        </form>
+        <p id="eligibilityResult"></p>
+    </div>
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
